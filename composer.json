@@ -1,6 +1,6 @@
 {
-  "name": "fredyns/yii2-flysystem-attachment",
-  "description": "upload model's attachment to flysystem file-storage",
+  "name": "fredyns/yii2-attachment",
+  "description": "Extension for file uploading and attaching to the models",
   "type": "yii2-extension",
   "keywords": [
     "yii2",
@@ -8,21 +8,39 @@
     "attachment",
     "file",
     "upload",
-    "flysystem",
-    "attachment"
+    "aws"
   ],
   "license": "BSD-4-Clause",
-  "homepage": "https://github.com/fredyns/yii2-flysystem-attachment",
+  "homepage": "https://github.com/fredyns/yii2-attachment",
   "authors": [
     {
       "name": "Fredy Nurman Saleh",
       "email": "email@fredyns.net",
       "homepage": "http://fredyns.net",
       "role": "Developer"
+    },
+    {
+      "name": "Rico ulul ilmy aka mazpaijo",
+      "email": "rico.ulul@gmail.com",
+      "homepage": "http://me@ricoulul.me",
+      "role": "Developer"
+    },
+    {
+      "name": "Alimzhan Abuov aka Nemmo",
+      "email": "alimzhan.abu@yandex.kz",
+      "homepage": "http://alimzhan.kz",
+      "role": "Source Developer"
     }
   ],
   "require": {
-    "php": ">=7.1.0"
+    "php": ">=7.1.0",
+    "yiisoft/yii2": "~2.0.14",
+    "kartik-v/yii2-widget-fileinput": "~1.0.0",
+    "himiklab/yii2-colorbox-widget": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "phpunit/dbunit": "~1.0"
   },
   "autoload": {
     "psr-4": {
